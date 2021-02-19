@@ -31,3 +31,6 @@ include_directories(
 
 add_library(helloRosWorld SHARED src/hello_ros_world.cc)
 target_link_libraries(helloRosWorld ${catkin_LIBRARIES} ${GAZEBO_LIBRARIES})
+
+add_library(rosPublisherPlugin SHARED src/ros_publisher_plugin.cc)
+target_link_libraries(rosPublisherPlugin ${catkin_LIBRARIES} ${GAZEBO_LIBRARIES})
