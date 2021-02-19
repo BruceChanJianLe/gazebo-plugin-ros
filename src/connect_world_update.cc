@@ -34,6 +34,7 @@ namespace gazebo
                  *  Hence, you may want to spin another thread instead of using this update loop.
                  */
                 ROS_INFO_STREAM(ros::this_node::getName() << " doing something " << this->count_);
+                ++this->count_;
             }
         );
 
