@@ -22,5 +22,6 @@ For this error, you can either put `const gazebo::common::UpdateInfo&` inside of
 ## Reference
 - Gazebo Plugin [youtube_link_part_1](https://www.youtube.com/watch?v=LRjT_1huVKY&feature=emb_logo) [youtube_link_part_2](https://www.youtube.com/watch?v=kLJt5U7wrGQ)
 - Gazebo Plugin Example [link_bitbucket](https://bitbucket.org/theconstructcore/tc_gazebo_custom_plugins/src/master/)
+- Gazebo Plugin Velodyne Example [link_bitbucket](https://bitbucket.org/DataspeedInc/velodyne_simulator/src/master/)
 - Gazebo Tutorial [link_website](http://gazebosim.org/tutorials?tut=ros_plugins)
 - Gazebo ROS Answer [link_ros_answer](https://answers.ros.org/question/287068/how-to-write-a-custom-gazebo-plugin-for-ros/)
