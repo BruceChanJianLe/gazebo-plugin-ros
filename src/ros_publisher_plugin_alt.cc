@@ -31,7 +31,7 @@ namespace gazebo
         if(!ros::isInitialized())
         {
             int argc = 0; char ** argv = NULL;
-            ros::init(argc, argv, "gazebo_ros_publisher_node", ros::init_options::NoSigintHandler);
+            ros::init(argc, argv, "gazebo_ros_publisher_alt_node", ros::init_options::NoSigintHandler);
         }
 
         // Initiate ROS node handle
