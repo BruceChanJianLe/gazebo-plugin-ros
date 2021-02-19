@@ -37,3 +37,6 @@ target_link_libraries(rosPublisherPlugin ${catkin_LIBRARIES} ${GAZEBO_LIBRARIES}
 
 add_library(rosPublisherPluginAlt SHARED src/ros_publisher_plugin_alt.cc)
 target_link_libraries(rosPublisherPluginAlt ${catkin_LIBRARIES} ${GAZEBO_LIBRARIES})
+
+add_library(rosConnectWorldUpdate SHARED src/connect_world_update.cc)
+target_link_libraries(rosConnectWorldUpdate ${catkin_LIBRARIES} ${GAZEBO_LIBRARIES})
