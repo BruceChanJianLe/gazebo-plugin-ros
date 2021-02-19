@@ -86,6 +86,8 @@ namespace gazebo
             }
         );
 
+        // Succesful message for user
+        gzmsg << ros::this_node::getName() << " successfully started ros_publisher_plugin plugin." << std::endl;
     }
 
 } // namespace gazebo
