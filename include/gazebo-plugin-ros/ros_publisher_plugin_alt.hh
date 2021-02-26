@@ -19,9 +19,6 @@ namespace gazebo
     class ros_publisher_plugin_alt : public WorldPlugin
     {
         private:
-            /// @brief Pointer to the update event connection
-            event::ConnectionPtr updateConnection_;
-
             /// @brief ROS publisher node handle
             std::shared_ptr<ros::NodeHandle> publisher_nh_;
 
