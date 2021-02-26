@@ -2,6 +2,10 @@
 
 This repository demonstrates the procedures to setup and use a Gazebo ROS plugin.
 
+## Obtianing Arguement from sdf
+
+For more information please refer to [Gazebo Plugin Example](https://bitbucket.org/theconstructcore/tc_gazebo_custom_plugins/src/master/).
+
 ## Error
 
 ```bash
