@@ -6,6 +6,17 @@ This repository demonstrates the procedures to setup and use a Gazebo ROS plugin
 
 For more information please refer to [Gazebo Plugin Example](https://bitbucket.org/theconstructcore/tc_gazebo_custom_plugins/src/master/).
 
+## Gazebo Plugin Export (for other packages to find the plugin)
+
+https://answers.ros.org/question/360991/gazebo-does-not-launch-when-entering-the-launch-command-2020/  
+https://answers.gazebosim.org//question/15200/cant-load-plugin-with-roslaunch/  
+https://github.com/osrf/servicesim/blob/follow_plugin/servicesim_competition/launch/competition.launch  
+http://wiki.ros.org/roslaunch/XML/env  
+http://wiki.ros.org/roslaunch/XML  
+http://gazebosim.org/tutorials?tut=ros_roslaunch  
+http://gazebosim.org/tutorials?tut=components&cat=get_started  
+http://gazebosim.org/tutorials?tut=plugins_model&cat=write_plugin  
+
 ## Error
 
 ```bash
