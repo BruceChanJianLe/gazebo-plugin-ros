@@ -11,6 +11,20 @@ Below are some links to clarify the ways to load the different types of plugins.
 http://gazebosim.org/tutorials?tut=ros_gzplugins  
 https://answers.gazebosim.org//question/4702/gazebo-19-libgazebo_ros_openni_kinectso-incorrect-plugin-type/  
 
+The `ModelPlugin` is inserted in the URDF inside the `<robot>` element. It is wrapped with the `<gazebo>` pill, to indicate information passed to Gazebo. For example:
+```xml
+<robot>
+  ... robot description ...
+  <gazebo>
+    <plugin name="differential_drive_controller" filename="libdiffdrive_plugin.so">
+      ... plugin parameters ...
+    </plugin>
+  </gazebo>
+  ... robot description ...
+</robot>
+```
+
+Likewise,
 
 ## Obtaining Arguement from sdf
 
