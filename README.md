@@ -24,7 +24,25 @@ The `ModelPlugin` is inserted in the URDF inside the `<robot>` element. It is wr
 </robot>
 ```
 
-Likewise,
+Likewise, the `SensorPlugin` is inserted in the URDF inside the `<robot>` element. However, they are meant to be attached to links, so the `<gazebo>` element describing that sensor must be given a reference to that link. For example:
+```xml
+<robot>
+  ... robot description ...
+  <link name="sensor_link">
+    ... link description ...
+  </link>
+
+  <gazebo reference="sensor_link">
+    <sensor type="camera" name="camera1">
+      ... sensor parameters ...
+      <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+        ... plugin parameters ..
+      </plugin>
+    </sensor>
+  </gazebo>
+
+</robot>
+```
 
 ## Obtaining Arguement from sdf
 
