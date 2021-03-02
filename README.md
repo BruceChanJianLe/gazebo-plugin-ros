@@ -2,6 +2,16 @@
 
 This repository demonstrates the procedures to setup and use a Gazebo ROS plugin.
 
+## Types of Gazebo Plugins
+
+There are several types of Gazebo plugins `world`, `model`, `sensor`, `visual`. Please note that different plugins should be loaded differently, if not it will failed.
+
+Below are some links to clarify the ways to load the different types of plugins.
+
+http://gazebosim.org/tutorials?tut=ros_gzplugins  
+https://answers.gazebosim.org//question/4702/gazebo-19-libgazebo_ros_openni_kinectso-incorrect-plugin-type/  
+
+
 ## Obtaining Arguement from sdf
 
 For more information please refer to [Gazebo Plugin Example](https://bitbucket.org/theconstructcore/tc_gazebo_custom_plugins/src/master/).
