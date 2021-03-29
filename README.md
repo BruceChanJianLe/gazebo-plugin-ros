@@ -58,6 +58,7 @@ http://wiki.ros.org/roslaunch/XML
 http://gazebosim.org/tutorials?tut=ros_roslaunch  
 http://gazebosim.org/tutorials?tut=components&cat=get_started  
 http://gazebosim.org/tutorials?tut=plugins_model&cat=write_plugin  
+https://hub.packtpub.com/working-pluginlib-nodelets-and-gazebo-plugins  
 
 ## Error
 
